@@ -1,0 +1,335 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 65399 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityRepos/Voxel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52046
+Successfully changed project path to: E:/UnityRepos/Voxel
+E:/UnityRepos/Voxel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityRepos/Voxel/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001445 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3103.
+Total: 3.396500 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.104500 ms MarkObjects: 1.925700 ms  DeleteObjects: 1.149300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Voxel#2/marble.jpg
+  artifactKey: Guid(98adb83e1e5874d619d860cf011cf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/marble.jpg using Guid(98adb83e1e5874d619d860cf011cf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cea5b0bc39607cbc24923253cd0c9ac') in 0.067644 seconds 
+  Import took 0.070926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Voxel#2/Dirt.jpg
+  artifactKey: Guid(c7e64972be8440142a3cf734fdb2c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/Dirt.jpg using Guid(c7e64972be8440142a3cf734fdb2c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bbfaecf835ffdcc47b489d95778523') in 0.032412 seconds 
+  Import took 0.036748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.576746 seconds.
+  path: Assets/Voxel#2/blockatlas.jpg
+  artifactKey: Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas.jpg using Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05385841d58f8b312ed7a5f072f22fea') in 0.012289 seconds 
+  Import took 0.016073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/Voxel#2/blockatlas.jpg
+  artifactKey: Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas.jpg using Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05385841d58f8b312ed7a5f072f22fea') in 0.011664 seconds 
+  Import took 0.015041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.746929 seconds.
+  path: Assets/Voxel#2/blockatlas.jpg
+  artifactKey: Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas.jpg using Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06d80b445680c48612ebba1b5bef2e4') in 0.576250 seconds 
+  Import took 0.580778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.979376 seconds.
+  path: Assets/Voxel#2/blockatlas 1.jpg
+  artifactKey: Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas 1.jpg using Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc367cae9511a99b7f37aec8fbf882a3') in 0.511639 seconds 
+  Import took 0.516285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.291138 seconds.
+  path: Assets/Voxel#2/splitatlas.jpg
+  artifactKey: Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/splitatlas.jpg using Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9228e56005fa444ba5046d57ccb8ea4') in 0.507016 seconds 
+  Import took 0.511383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.822841 seconds.
+  path: Assets/Voxel#2/ProcessTextureAtlas.cs
+  artifactKey: Guid(b4bbbf743d7e3b24290e7974a717d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/ProcessTextureAtlas.cs using Guid(b4bbbf743d7e3b24290e7974a717d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953a378934c8befd9290dc6c73fc9f6') in 0.007414 seconds 
+  Import took 0.010932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002237 seconds.
+  path: Assets/Voxel#2/ProcessTextureAtlas.cs
+  artifactKey: Guid(b4bbbf743d7e3b24290e7974a717d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/ProcessTextureAtlas.cs using Guid(b4bbbf743d7e3b24290e7974a717d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953a378934c8befd9290dc6c73fc9f6') in 0.001224 seconds 
+  Import took 0.004997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2630 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3112.
+Total: 3.809400 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.251600 ms  DeleteObjects: 1.163600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.988517 seconds.
+  path: Assets/Voxel#2/blockatlas.jpg
+  artifactKey: Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas.jpg using Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373cd0f6f707b447816d4052f9e588d4') in 0.563647 seconds 
+  Import took 0.568281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Voxel#2/marble.jpg
+  artifactKey: Guid(98adb83e1e5874d619d860cf011cf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/marble.jpg using Guid(98adb83e1e5874d619d860cf011cf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7159700745ddbaa8a3260efc0eeb7e1e') in 0.595415 seconds 
+  Import took 0.599759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Voxel#2/splitatlas.jpg
+  artifactKey: Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/splitatlas.jpg using Guid(ecdbc94f9b8f4924c861071514ee00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899a7673fe445d5ee92815da89844ddc') in 0.523473 seconds 
+  Import took 0.527902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Voxel#2/Dirt.jpg
+  artifactKey: Guid(c7e64972be8440142a3cf734fdb2c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/Dirt.jpg using Guid(c7e64972be8440142a3cf734fdb2c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a21d85e158e5fa59d746956e5d0ae6e') in 0.441985 seconds 
+  Import took 0.447311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.084262 seconds.
+  path: Assets/Voxel#2/New Material.mat
+  artifactKey: Guid(71a91b16bc7ba44448ed6ab511878f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/New Material.mat using Guid(71a91b16bc7ba44448ed6ab511878f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04139e5bb90ee4db8bd1b25dd33b4a80') in 0.128153 seconds 
+  Import took 0.131832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.941784 seconds.
+  path: Assets/Voxel#2/Material.mat
+  artifactKey: Guid(71a91b16bc7ba44448ed6ab511878f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/Material.mat using Guid(71a91b16bc7ba44448ed6ab511878f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06df68d75135b7a55334706dddf31959') in 0.011097 seconds 
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.589432 seconds.
+  path: Assets/Voxel#2/blockatlas.jpg
+  artifactKey: Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/blockatlas.jpg using Guid(cfddcb26ebad5c744ab173b4d9fb8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bce3d3a83222b2b431a82679a9c5b0') in 0.033472 seconds 
+  Import took 0.037817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.287943 seconds.
+  path: Assets/Voxel#2/CreateQuads.cs
+  artifactKey: Guid(1660a9170efc8874cb2a6f9d52d30d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/CreateQuads.cs using Guid(1660a9170efc8874cb2a6f9d52d30d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a019c087c25c33e822190f96f2a42c2') in 0.006521 seconds 
+  Import took 0.010547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/Voxel#2/CreateQuads.cs
+  artifactKey: Guid(1660a9170efc8874cb2a6f9d52d30d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel#2/CreateQuads.cs using Guid(1660a9170efc8874cb2a6f9d52d30d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a019c087c25c33e822190f96f2a42c2') in 0.001469 seconds 
+  Import took 0.005730 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
