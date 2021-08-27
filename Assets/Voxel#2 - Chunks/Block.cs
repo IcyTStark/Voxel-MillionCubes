@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Block : MonoBehaviour
+public class Block
 {
     enum Cubeside { BOTTOM,TOP,LEFT,RIGHT,FORWARD,BACKWARD};
-    public enum BlockType { GRASS , DIRT , STONE};
+    public enum BlockType { GRASS , DIRT , STONE , AIR};
 
     //Config parameters
     BlockType bType;
     GameObject parent;
     Vector3 position;
-    Material cubeMaterial;
+    Chunk owner;
 
     public bool isSolid;
 
@@ -29,13 +29,20 @@ public class Block : MonoBehaviour
     };
 
     //Constructor of BlockClass
-    public Block(BlockType a, Vector3 pos,GameObject p, Material c)
+    public Block(BlockType a, Vector3 pos,GameObject p, Chunk o)
     {
         bType = a;
         position = pos;
         parent = p;
-        cubeMaterial = c;
-        isSolid = true;
+        owner = o;
+        if (bType == BlockType.AIR)
+        {
+            isSolid = false;
+        }
+        else
+        {
+            isSolid = true;
+        }
     }
 
     void CreateQuad(Cubeside side)
@@ -140,23 +147,29 @@ public class Block : MonoBehaviour
         MeshFilter meshfilter = quad.AddComponent(typeof(MeshFilter)) as MeshFilter;
         meshfilter.mesh = mesh;
 
-        MeshRenderer renderer = quad.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
-        renderer.material = cubeMaterial;
+        //MeshRenderer renderer = quad.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
+        //renderer.material = cubeMaterial;
     }
 
     public bool HasSolidNeighbour(int x,int y,int z)
     {
-        Block[,,] chunks = parent.GetComponent<Chunk>().chunkData;
+        Block[,,] chunks;
+
+        chunks = owner.chunkData;
         try
         {
             return chunks[x, y, z].isSolid;
         }
-        catch (System.IndexOutOfRangeException ex) { }
+        catch (System.IndexOutOfRangeException) { }
         return false;
     }
 
     public void Draw()
     {
+        if(bType == BlockType.AIR)
+        {
+            return;
+        }
         if(!HasSolidNeighbour((int)position.x,(int)position.y,(int)position.z + 1))
         {
             CreateQuad(Cubeside.FORWARD);
